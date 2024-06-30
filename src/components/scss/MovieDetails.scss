@@ -1,0 +1,50 @@
+.movie-details {
+    text-align: left;
+    padding: 2rem;
+
+    a {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: #007bff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .movie-info {
+        display: flex;
+        align-items: flex-start;
+
+        img {
+            margin-right: 2rem;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    }
+
+    nav {
+        margin-top: 2rem;
+
+        a {
+            margin-right: 1rem;
+            color: #007bff;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
